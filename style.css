@@ -207,22 +207,14 @@ transition: 2s;
     100% {
         transform: rotate(0deg);
       }
-  }
-
-  /* Esercizio 12 */
-
-.ex-12-button:hover .ex-12-top-white {
-    animation: move-right 2s linear;
 }
 
-/* .ex-12-top-white, .ex-13-top-white {
-    position: absolute;
-    top: -10px;
-    left: 10%;
-    background: #f5f5f5;
-    width: 60px;
-    height: 20px;
-} */
+/* Esercizio 12 */
+
+.ex-12-button .ex-12-top-white {
+    animation: move-right 2s linear;
+    animation-iteration-count: infinite;
+}
 
 @keyframes move-right {
     0% {
@@ -231,11 +223,12 @@ transition: 2s;
     50% {
         left: calc(90% - 60px)
     }
-  }
+}
 
     
-.ex-12-button:hover .ex-12-bottom-white {
+.ex-12-button .ex-12-bottom-white {
     animation: move-left 2s linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes move-left {
@@ -245,4 +238,84 @@ transition: 2s;
     50% {
         right: calc(90% - 60px)
     }
-  }
+}
+
+/* Esercizio 13 */
+
+.ex-13-top-white {
+    animation: move-around-top 4s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-around-top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    25% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    50% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -30px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-bottom-white {
+    animation: move-around-bottom 4s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-around-bottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    25% {
+        bottom: -10px;
+        right: calc(100% - 40px);
+    }
+    50% {
+        bottom: 100%;
+        right: calc(100% - 40px);
+    }
+    75% {
+        bottom: 100%;
+        right: 0%;
+    }
+    90% {
+        bottom: -10px;
+        right: -15px;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+    
+/* .ex-13-button .ex-13-bottom-white {
+    animation: move-left 2s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-left {
+    0% {
+        right: 10%;}
+
+    50% {
+        right: calc(90% - 60px)
+    }
+} */
