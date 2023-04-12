@@ -155,3 +155,15 @@ transition: 2s;
 }
 
 
+/* Esercizio 9 */
+
+
+.ex-9-img:hover {
+    filter:blur(0.5rem) invert(20%);
+    border-radius: 30px;
+    width: 700px;
+} 
+
+.ex-9-img {
+    transition: 2s;
+}
