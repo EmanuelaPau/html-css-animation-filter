@@ -110,3 +110,19 @@ transition: 2s;
 .ex-4-square:hover {
     background: none
 }
+
+ /* Esercizio 5 */
+
+ .ex-5-square {
+    transition: 1.5s;
+}
+
+.ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active {
+    width: 50px;
+    height: 50px;
+}
