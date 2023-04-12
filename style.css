@@ -143,3 +143,13 @@ transition: 2s;
     transition: 2s;
 }
 
+/* Esercizio 8 */
+
+.ex-8-img:hover {
+    filter:brightness(3) drop-shadow(0 0 0.75rem grey);
+    border-radius: 30px;
+} 
+
+.ex-8-img {
+    transition: 2s;
+}
