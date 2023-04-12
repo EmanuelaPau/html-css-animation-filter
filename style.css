@@ -184,3 +184,26 @@ transition: 2s;
       transform: rotate(360deg);
     }
   }
+
+
+/* Esercizio 11 */
+
+.ex-11-icon {
+    animation-name: rotate-in-out;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate-in-out {
+    0% {
+      transform: rotate(0);
+    }
+    
+    80% {
+      transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+      }
+  }
