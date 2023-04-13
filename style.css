@@ -188,7 +188,7 @@ transition: 2s;
 
 /* Esercizio 11 */
 
-.ex-11-icon {
+.ex-11-icon:hover {
     animation-name: rotate-in-out;
     animation-duration: 3s ;
     animation-iteration-count: infinite;
