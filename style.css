@@ -136,7 +136,7 @@ transition: 2s;
 /* Esercizio 7 */
 
 .ex-7-img:hover {
-    filter: grayscale(100);
+    filter: grayscale(50) sepia(50);
 }
 
 .ex-7-img {
