@@ -221,7 +221,7 @@ transition: 2s;
         left: 10%;}
 
     50% {
-        left: calc(90% - 60px)
+        left: calc(90% - 50px)
     }
 }
 
@@ -233,7 +233,7 @@ transition: 2s;
 
 @keyframes move-left {
     0% {
-        right: 10%;}
+        right: 20%;}
 
     50% {
         right: calc(90% - 60px)
